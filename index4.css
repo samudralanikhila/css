@@ -1,0 +1,155 @@
+body{
+    border: 5px solid pink;
+}
+h1{
+    text-align: center;
+    background-image: linear-gradient(
+        90deg,
+        red,
+        green,
+        yellow
+    );
+    color: whitesmoke;
+}
+.ul{
+    border: 10px red;
+    border-style: groove;
+    display: flex;
+    margin: auto 100px;
+    justify-content: space-around;
+    background-color: rgb(12, 188, 188);
+    border-radius: 10px;
+    font-size: 18px;
+ 
+}
+.n{
+    text-align: center;
+}
+.lorem{
+    background-color: aquamarine;
+    border: 10px groove maroon;
+    border-radius: 15px;
+    margin: 15px;
+    display: flex;
+    flex-flow:wrap;
+    justify-content: space-around;
+    padding:10px;
+}
+p{
+    width: 400px;
+    background-color: aqua;
+    font-size: 15px;
+    text-align: center;
+    margin: 0;
+    border: 2px solid green;
+    font-weight: bolder;
+    border-radius: 15px;
+    padding: 5px;
+}
+h3{
+    background-image: linear-gradient(
+        90deg,
+        yellow,
+        green,
+        red,
+        green,
+        yellow
+    );
+    text-align: center;
+    padding: 10px;
+    text-decoration: underline;
+    color: whitesmoke;
+}
+.saurav{
+    background-image: radial-gradient(
+        aquamarine,
+        rgb(12, 75, 144)
+    );
+    border: green groove 5px;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-around;
+    padding: 60px 0;
+}
+.iit{
+    width: 200px;
+    background-color: blue;
+    border: 5px groove red;
+    border-radius: 20px;
+}
+span{
+    display: block;
+    text-align: center;
+    padding: 5PX;
+    text-decoration: underline;
+    color: whitesmoke;
+    font-weight: bold;
+}
+h4{
+    background-color: rgb(212, 10, 10);
+    text-align: center;
+    padding: 10px;
+    color: whitesmoke;
+    border: 2PX solid black;
+}
+.grid{
+    display: grid;
+    margin: 15px 0;
+    padding: 5px;
+    grid-template-columns: auto auto auto  200px;
+    grid-template-columns: auto auto auto 200px ;
+}
+.items{
+    background-color: white;
+    margin:5px;
+}
+.item1{
+    font-weight: bolder;
+    font-size: 30px;
+    padding: 5px;
+    text-align: center;
+    color: whitesmoke;
+    background-color: lightgreen;
+
+}
+.item2{
+    font-weight: bolder;
+    font-size: 30px;
+    padding: 5px;
+    text-align: center;
+    color: whitesmoke;
+    background-color: lightsalmon;
+    padding-top: 10px;
+
+}
+.item3{
+    font-weight: bolder;
+    font-size: 30px;
+    padding: 5px;
+    text-align: center;
+    color: whitesmoke;
+    background-color: rgb(157, 29, 185);
+    padding-top: 10px;
+}
+.item4{
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column-start: 0;
+    grid-column-end: 5;
+    font-weight: bolder;
+    font-size: 15px;
+    color: whitesmoke;
+    background-color: black;
+    padding-top: 10px;
+    text-decoration: underline;
+}
+.item5{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    color: whitesmoke;
+    background-color: orange;
+}
+h2{
+    text-align: center;
+    background-color: aquamarine;
+}
