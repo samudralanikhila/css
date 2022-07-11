@@ -1,0 +1,112 @@
+body{
+    background-image: url(./shara_desert.jpg);
+    padding: 25px;
+    background-size: cover;
+}
+.container{
+    margin: 30px;
+    display : flex;
+    justify-content: space-between;
+}
+.home{
+    display: flex;
+    justify-content: space-between;
+}
+ul{
+    display: flex;
+    list-style-type: none;
+}
+li{
+    padding:0 20px;
+    color: white;
+    font-weight: bold;
+}
+h1{
+    font-size: 50px;
+    color: whitesmoke;
+}
+.btn{
+    width:150px;
+    height: 25px;
+    border-radius: 20px;
+    border: none;
+}
+p{
+    font-size: 25px;
+    color:whitesmoke;
+    font-weight: bold;
+}
+.about{
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 50px;
+    margin: 15px;
+}
+.pic{
+    display: grid;
+    grid-template-columns: auto auto;
+    row-gap: 10px;
+    column-gap: 20px;
+}
+.pic1{
+    padding: 10px;
+    width: 250px;
+    height: 250px;
+    background-image: url(./pic-1.png);
+    background-size: cover;
+    border-radius: 20px;
+}
+.pic2{
+    padding: 10px;
+    width: 250px;
+    height: 250px;
+    background-image: url(./pic-2.png);
+    background-size: cover;
+    border-radius: 20px;
+    
+}
+.pic3{
+    padding: 10px;
+    width: 250px;
+    height: 250px;
+    background-image: url(./pic-3.png);
+    background-size: cover;
+    border-radius: 20px;
+}
+.pic4{
+    padding: 10px;
+    width: 250px;
+    height: 250px;
+    background-image: url(./pic-4.png);
+    background-size: cover;
+    border-radius: 20px;
+}
+.pic :hover {
+    transform: translatey(-25px);
+}
+.size{
+    font-size: 20px;
+}
+h2{
+    color: whitesmoke;
+}
+.sahara{
+    padding: 100px 0;
+}
+@media (min-width: 400px) and (max-width:800px){
+    .about{
+        grid-template-columns: auto; 
+    }
+    .pic{
+        grid-template-columns: auto;
+        justify-content: center;
+    }
+    .pic1 , .pic2 , .pic3 ,.pic4{
+        width: 300px;
+        margin: 10px;
+    }
+    .sahara{
+        width:90vw;
+        padding: 0;
+    }
+}
