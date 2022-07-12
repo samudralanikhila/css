@@ -1,0 +1,119 @@
+body{
+    text-align: center;
+    background-color: rgb(243, 243, 181);
+}
+.niki{
+    text-align: left;
+    width: 100px;
+    height: 100px;
+    background-color: aquamarine;
+    animation: niki 2s linear infinite;
+    margin-left: 20px;
+    display: inline-block;
+}
+.niki1{
+    text-align: left;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(24, 195, 146);
+    animation: niki1 2s linear infinite;
+    margin-left: 20px;
+    display: inline-block;
+
+}
+.niki2{
+    text-align: left;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(13, 154, 114);
+    animation: niki2 2s linear infinite;
+    margin-left: 20px;
+    display: inline-block;
+
+}
+.niki3{
+text-align: left;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(233, 188, 231);
+    animation: niki3 2s linear infinite;
+    margin-left: 20px;
+    display: inline-block;
+}
+.niki4{
+    text-align: left;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(231, 167, 216);
+    animation: niki4 2s linear infinite;
+    margin-left: 20px;
+    display: inline-block;
+}
+.niki5 {
+    text-align: left;
+        width: 100px;
+        height: 100px;
+        background-color: rgb(227, 138, 225);
+        animation: niki5 2s linear infinite;
+        margin-left: 20px;
+        display: inline-block;
+}
+/*skewx*/
+@keyframes niki{
+    0%{
+      transform: skewX(20deg)
+    }
+    100%{
+        transform: skewX(-20deg);
+    }
+}
+/*skewy*/
+@keyframes niki1{
+    0%{
+        transform: skewy(20deg);
+    }
+    100%{
+        transform: skewy(-20deg);
+    }
+}
+/*rotate*/
+@keyframes niki2{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(100deg);
+    }
+}
+/*rotatex*/
+@keyframes niki3{
+    0%{
+        transform: rotateX(0deg);
+    }
+    100%{
+        transform: rotateX(50deg);
+    }
+}
+/*rotaey*/
+@keyframes niki4{
+    0%{
+        transform: rotatey(0deg);
+    }
+    100%{
+        transform: rotatey(50deg);
+    }
+}
+/*rotae*/
+@keyframes niki5{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(110deg);
+    }
+}
+a{
+    font-weight: bolder;
+    font-size: 25px;
+    text-decoration:none;
+}

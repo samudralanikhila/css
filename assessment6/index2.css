@@ -1,0 +1,52 @@
+body{
+    background-color: rgb(237, 237, 151);
+    text-align: center;
+   
+}
+h1{
+    text-align: center;
+}
+.number{
+    display: flex;
+    flex-flow: column wrap;
+    align-content: center;
+}
+div{
+    display: block;
+    text-align: center;
+}
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(48, 90, 48);
+    display:inline-block;
+    margin-top: 20px;
+    margin-left: 10px;
+    border: 1px solid black;
+    
+}
+li{
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+ol{
+    display: flex;
+}
+.box1:hover{
+    width: 300px;
+}
+.box1{
+    transition:all 3.5s linear;
+}
+.box2:hover{
+    height: 300px;
+    width: 300px;
+}
+.box2{
+    transition:all 3.5s linear;
+}
+a{
+    font-weight: bolder;
+    font-size: 25px;
+    text-decoration:none;
+}
